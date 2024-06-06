@@ -1,0 +1,12 @@
+.drag {
+    margin:2rem 0 2rem 0;
+    border: dashed rgb(190, 188, 188) 2px;
+    background-color: #fff;
+    min-height: 150px;
+}
+
+.drop {
+    margin:10px;
+    text-align: left;
+    color: #248bf5;
+}

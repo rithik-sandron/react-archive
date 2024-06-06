@@ -1,0 +1,87 @@
+  /* general styling */
+  
+  .imessage {
+    margin-top: 2rem;
+  }
+
+  .aes {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1rem;
+  }
+  
+  .aes h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+  }
+  
+  .aes h2 {
+    font-weight: normal;
+    margin-top: 0;
+    padding-bottom: 1.5rem;
+  }
+  
+  .aes li {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 0;
+    padding-bottom: 1.5rem;
+  }
+
+  
+  @media screen and (max-width: 800px) {
+    body {
+      margin: 0 0.5rem;
+    }
+  
+    .aes {
+      padding: 0.5rem;
+    }
+  
+    .imessage {
+      font-size: 1.05rem;
+      margin: 0 auto 1rem;
+      max-width: 600px;
+      padding: 0.25rem 0.875rem;
+    }
+  
+    .imessage p {
+      margin: 0.5rem 0;
+    }
+  }
+  
+  
+  .aes ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .aes li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+  }
+  
+  .aes a {
+    text-decoration: none;
+    color: #222;
+  }
+  
+  .aes a:hover,
+  .aes a:active,  
+  .aes a.active {
+    color:#248bf5;
+  } 
+  
+  .seperator {
+    border-bottom: 1px solid #e5e5ea;
+  }
+  
+  .aes span {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 50px;
+  }
